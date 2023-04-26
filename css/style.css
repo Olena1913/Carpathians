@@ -210,9 +210,7 @@ a {
         min-height: 100%;
         background: #202846;
         z-index: 100;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        font-size: 24px;
         transition: 0.3s;
         display: none;
     }
