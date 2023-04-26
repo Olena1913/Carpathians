@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper-space">
+        <div id="scrollTop" class="scroll__top scroll__top-show">
+            <a href="#" class="wrapper__arrow">
+                <img src="image/Arrow_wrapper.svg" alt="">
+            </a>
+        </div>
+        <header class="header">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="image/header/logo.svg" alt="" class="logo__img">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a href="index.html" class="menu__list-link">Головна</a></li>
+                        <li class="menu__list-item"><a href="about-us.html" class="menu__list-link">Про нас</a></li>
+                        <li class="menu__list-item"><a href="reserve.html" class="menu__list-link">Забронювати</a></li>
+                        <li class="menu__list-item"><a href="contact.html" class="menu__list-link">Контакти</a></li>
+                        <li class="menu__list-item"><a href="account.html" class="menu__list-link">Авторизація</a></li>
+                        <li class="menu__list-item"><a href="#" class="menu__list-link language"><img src="image/header/language.svg" alt="">
+                            <select class="menu__list-language">
+                                <option value="ua" selected>UA</option>
+                                <option value="en">EN</option>
+                                <option value="du">DU</option>
+                            </select>
+                        </a></li>
+                    </ul>
+                    <button class="nav-button">
+                        <span class="nav-button-icon"></span>
+                    </button>
+                </nav>
+                <ul class="menu__list-mobile">
+                    <li class="menu__list-item"><a href="index.html" class="menu__list-link">Головна</a></li>
+                    <li class="menu__list-item"><a href="about-us.html" class="menu__list-link">Про нас</a></li>
+                    <li class="menu__list-item"><a href="reserve.html" class="menu__list-link">Забронювати</a></li>
+                    <li class="menu__list-item"><a href="contact.html" class="menu__list-link">Контакти</a></li>
+                    <li class="menu__list-item"><a href="account.html" class="menu__list-link">Авторизація</a></li>
+                    <li class="menu__list-item"><a href="#" class="menu__list-link language"><img src="image/header/language.svg" alt="">
+                        <select class="menu__list-language">
+                            <option value="ua" selected>UA</option>
+                            <option value="ua">EN</option>
+                            <option value="ua">DU</option>
+                        </select>
+                    </a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="main">
+            <section class="reserve">
+                <div class="container">
+                    <div class="reserve__menu">
+                        <div class="reserve__select">
+                            <div class="reserve__select-btn">
+                                <span class="reserve__select-text">Оберіть місцерозташування</span>
+                            </div>
+                           <ul class="reserve__select-menu">
+                                <li class="reserve__select-option" data-type='all'>
+                                    <span class="reserve__select-name" data-type='all'>Всі міста для відпочинку</span>
+                                </li>
+                                <li class="reserve__select-option" data-type='bakota'>
+                                    <span class="reserve__select-name" data-type='bakota'>Бакота</span>
+                                </li>
+                                <li class="reserve__select-option" data-type='carpathians'>
+                                    <span class="reserve__select-name" data-type='carpathians'>Карпати</span>
+                                </li>
+                                <li class="reserve__select-option">
+                                    <span class="reserve__select-name" data-type='kyiv'>Київ</span>
+                                </li>
+                                <li class="reserve__select-option">
+                                    <span class="reserve__select-name"data-type='odessa'>Одеська область</span>
+                                </li>
+                           </ul>
+                        </div>
+                        <div class="recerve__content">
+                            <!-- <div class="recerve__card">
+                                <div class="card__image">
+                                    <img src="image/reserve/reserve-1.png" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__content-title">Незвідана Бакота </div>
+                                    <div class="card__content-text">
+                                        <p>У Хмельницькій області розташований загублений край -
+                                        Бакота. Мальовничий каньйон з давньою історією захоплює
+                                        своїми просторами та незвичною атмосферою. Бджільництво,
+                                        свіжий мед із польових трав, дотик до природи.</p> 
+                                    </div>
+                                    <div class="card__content-button">
+                                        <a href="" class="card__btn">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recerve__card">
+                                <div class="card__image">
+                                    <img src="image/reserve/reserve-2.png" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__content-title">Полонини Карпат </div>
+                                    <div class="card__content-text">
+                                        <p>Полонини Карпат, у селі Орів посеред гір
+                                            розташувався затишний куточок для незабутніх
+                                            вражень. Справжні українські гори, власноручне
+                                            сироваріння на полонині, водоспади та
+                                            дерева чекають Вас і з радістю зустрінуть.</p> 
+                                    </div>
+                                    <div class="card__content-button">
+                                        <a href="" class="card__btn">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recerve__card">
+                                <div class="card__image">
+                                    <img src="image/reserve/reserve-3.png" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__content-title">Автентична Київщина</div>
+                                    <div class="card__content-text">
+                                        <p>Неподалік центра Києва розташувалось автентичне українське село 
+                                        на території однойменного села Пирогово. Дерев’яні млини, запашний хліб, 
+                                        приготовлений своїми руками, українські пісні та багато іншого чекає на
+                                        вас уже зараз.</p> 
+                                    </div>
+                                    <div class="card__content-button">
+                                        <a href="" class="card__btn">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recerve__card">
+                                <div class="card__image">
+                                    <img src="image/reserve/reserve-4.png" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__content-title">Нетипова Одещина</div>
+                                    <div class="card__content-text">
+                                        <p>В Одеській області знаходиться мальовниче містечко Вилкове.
+                                            Його ще називають «українською Венецією». Вилкове - це містечко
+                                            на воді, весь в каналах. Розташоване в місці, де зустрічаються річка
+                                            Дунай і Чорне море.</p> 
+                                    </div>
+                                    <div class="card__content-button">
+                                        <a href="" class="card__btn">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recerve__card">
+                                <div class="card__image">
+                                    <img src="image/reserve/reserve-1.png" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__content-title">Незвідана Бакота </div>
+                                    <div class="card__content-text">
+                                        <p>У Хмельницькій області розташований загублений край -
+                                        Бакота. Мальовничий каньйон з давньою історією захоплює
+                                        своїми просторами та незвичною атмосферою. Бджільництво,
+                                        свіжий мед із польових трав, дотик до природи.</p> 
+                                    </div>
+                                    <div class="card__content-button">
+                                        <a href="" class="card__btn">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recerve__card">
+                                <div class="card__image">
+                                    <img src="image/reserve/reserve-2.png" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__content-title">Полонини Карпат </div>
+                                    <div class="card__content-text">
+                                        <p>Полонини Карпат, у селі Орів посеред гір
+                                            розташувався затишний куточок для незабутніх
+                                            вражень. Справжні українські гори, власноручне
+                                            сироваріння на полонині, водоспади та
+                                            дерева чекають Вас і з радістю зустрінуть.</p> 
+                                    </div>
+                                    <div class="card__content-button">
+                                        <a href="" class="card__btn">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recerve__card">
+                                <div class="card__image">
+                                    <img src="image/reserve/reserve-3.png" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__content-title">Автентична Київщина</div>
+                                    <div class="card__content-text">
+                                        <p>Неподалік центра Києва розташувалось автентичне українське село 
+                                        на території однойменного села Пирогово. Дерев’яні млини, запашний хліб, 
+                                        приготовлений своїми руками, українські пісні та багато іншого чекає на
+                                        вас уже зараз.</p> 
+                                    </div>
+                                    <div class="card__content-button">
+                                        <a href="" class="card__btn">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recerve__card">
+                                <div class="card__image">
+                                    <img src="image/reserve/reserve-4.png" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__content-title">Нетипова Одещина</div>
+                                    <div class="card__content-text">
+                                        <p>В Одеській області знаходиться мальовниче містечко Вилкове.
+                                            Його ще називають «українською Венецією». Вилкове - це містечко
+                                            на воді, весь в каналах. Розташоване в місці, де зустрічаються річка
+                                            Дунай і Чорне море.</p> 
+                                    </div>
+                                    <div class="card__content-button">
+                                        <a href="" class="card__btn">Детальніше</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">HolidayTime, all right reserved!</div>
+            </div>
+        </footer>
+    </div>
+<script src="js/main-reserve.js"></script>
+</body>
+</html> 
